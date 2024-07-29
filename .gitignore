@@ -1,0 +1,28 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.log
+
+# Node
+node_modules/
+dist/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+*.env
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
