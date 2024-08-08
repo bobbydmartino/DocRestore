@@ -1,0 +1,29 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        USER_ID: ${UID:-1000}
+        GROUP_ID: ${GID:-1000}
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    tty: true
+    stdin_open: true
+
+  backend:
+    build:
+      context: ./backend
+      args:
+        USER_ID: ${UID:-1000}
+        GROUP_ID: ${GID:-1000}
+    volumes:
+      - ./backend:/app
+      - ${PDF_FOLDER:-./pdf}:/pdf
+    ports:
+      - "5000:5000"
+    tty: true
+    stdin_open: true
