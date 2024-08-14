@@ -2,10 +2,11 @@ import os
 import time
 import threading
 import schedule
-from flask import Flask, jsonify, send_file
+from flask import Flask, jsonify, send_file, request  
 from flask_cors import CORS
 import pypdfium2 as pdfium
 import logging
+# from ocr_experiments import OCRExperiment
 
 app = Flask(__name__)
 CORS(app)
@@ -86,6 +87,27 @@ def trigger_process_pdfs():
     except Exception as e:
         logging.error(f"Error in manual PDF processing: {str(e)}")
         return jsonify({"error": "An error occurred during PDF processing"}), 500
+
+
+# @app.route('/api/run_ocr_experiments', methods=['POST'])
+# def run_ocr_experiments():
+#     data = request.json
+#     pdf_name = data.get('pdf_name')
+#     models = data.get('models', {})
+
+#     if not pdf_name:
+#         return jsonify({"error": "PDF name is required"}), 400
+
+#     try:
+#         experiment = OCRExperiment()
+#         experiment.run_experiments(pdf_name, models)
+#         return jsonify({"message": f"OCR experiments completed for {pdf_name}"}), 200
+#     except FileNotFoundError as e:
+#         return jsonify({"error": str(e)}), 404
+#     except Exception as e:
+#         logging.error(f"Error in OCR experiments: {str(e)}")
+#         return jsonify({"error": "An error occurred during OCR experiments"}), 500
+
 
 
 if __name__ == '__main__':

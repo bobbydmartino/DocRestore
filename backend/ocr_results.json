@@ -1,0 +1,570 @@
+{
+  "surya_surya": [
+    {
+      "bbox": [
+        1159.0,
+        190.0,
+        1627.0,
+        226.0
+      ],
+      "text": "The Neumann Compendium",
+      "confidence": 0.9907491207122803
+    },
+    {
+      "bbox": [
+        181.0,
+        195.0,
+        250.0,
+        229.0
+      ],
+      "text": "658",
+      "confidence": 0.9917898774147034
+    },
+    {
+      "bbox": [
+        400.0,
+        378.0,
+        1427.0,
+        424.0
+      ],
+      "text": "For the kind of explosiveness that man",
+      "confidence": 0.9997360110282898
+    },
+    {
+      "bbox": [
+        402.0,
+        442.0,
+        1426.0,
+        492.0
+      ],
+      "text": "will be able to contrive by 1980, the globe",
+      "confidence": 0.9996490478515625
+    },
+    {
+      "bbox": [
+        401.0,
+        506.0,
+        1426.0,
+        560.0
+      ],
+      "text": "is dangerously small, its political units",
+      "confidence": 0.998965859413147
+    },
+    {
+      "bbox": [
+        401.0,
+        572.0,
+        948.0,
+        626.0
+      ],
+      "text": "dngerously unstable.",
+      "confidence": 0.97621089220047
+    },
+    {
+      "bbox": [
+        499.0,
+        1069.0,
+        1315.0,
+        1114.0
+      ],
+      "text": "CAN WE SURVIVE TECHNOLOGY?",
+      "confidence": 0.9959714412689209
+    },
+    {
+      "bbox": [
+        656.0,
+        1274.0,
+        1171.0,
+        1321.0
+      ],
+      "text": "by John von Neumann",
+      "confidence": 0.9836323857307434
+    },
+    {
+      "bbox": [
+        512.0,
+        1346.0,
+        1312.0,
+        1390.0
+      ],
+      "text": "Member, Atomic Energy Commission",
+      "confidence": 0.9995319247245789
+    },
+    {
+      "bbox": [
+        349.0,
+        1528.0,
+        1535.0,
+        1576.0
+      ],
+      "text": "\u2018The great globe itself\u2019\u2019 is in a rapidly maturing crisis",
+      "confidence": 0.9865537881851196
+    },
+    {
+      "bbox": [
+        337.0,
+        1583.0,
+        1534.0,
+        1630.0
+      ],
+      "text": "\u2013a crisis attributable to the fact that the environment",
+      "confidence": 0.9913898706436157
+    },
+    {
+      "bbox": [
+        300.0,
+        1640.0,
+        1535.0,
+        1685.0
+      ],
+      "text": "in which technological progress must occur has become",
+      "confidence": 0.9997592568397522
+    },
+    {
+      "bbox": [
+        301.0,
+        1695.0,
+        1533.0,
+        1739.0
+      ],
+      "text": "both undersized and underorganized. To define the crisis",
+      "confidence": 0.9996992349624634
+    },
+    {
+      "bbox": [
+        301.0,
+        1749.0,
+        1535.0,
+        1794.0
+      ],
+      "text": "with any accuracy, and to explore possibilities of dealing",
+      "confidence": 0.9992539286613464
+    },
+    {
+      "bbox": [
+        301.0,
+        1803.0,
+        1535.0,
+        1851.0
+      ],
+      "text": "with it, we must not only look at relevant facts, but also",
+      "confidence": 0.9991510510444641
+    },
+    {
+      "bbox": [
+        301.0,
+        1856.0,
+        1535.0,
+        1904.0
+      ],
+      "text": "engage in some speculation. The process will illuminate",
+      "confidence": 0.9994611740112305
+    },
+    {
+      "bbox": [
+        300.0,
+        1914.0,
+        1536.0,
+        1958.0
+      ],
+      "text": "some potential technological developments of the next",
+      "confidence": 0.9997065663337708
+    },
+    {
+      "bbox": [
+        301.0,
+        1967.0,
+        669.0,
+        2011.0
+      ],
+      "text": "quarter-century.",
+      "confidence": 0.9686315059661865
+    },
+    {
+      "bbox": [
+        354.0,
+        2020.0,
+        1535.0,
+        2070.0
+      ],
+      "text": "In the first half of this century the accelerating indus\u00ac",
+      "confidence": 0.9957709908485413
+    },
+    {
+      "bbox": [
+        301.0,
+        2074.0,
+        1537.0,
+        2126.0
+      ],
+      "text": "trial revolution encountered an absolute limitation\u2014not",
+      "confidence": 0.9990617036819458
+    },
+    {
+      "bbox": [
+        303.0,
+        2132.0,
+        1538.0,
+        2181.0
+      ],
+      "text": "on technological progress as such but on an essential",
+      "confidence": 0.999723494052887
+    },
+    {
+      "bbox": [
+        303.0,
+        2187.0,
+        1537.0,
+        2237.0
+      ],
+      "text": "safety factor. This safety factor, which had permitted",
+      "confidence": 0.9916550517082214
+    },
+    {
+      "bbox": [
+        301.0,
+        2239.0,
+        1537.0,
+        2293.0
+      ],
+      "text": "the industrial revolution to roll on from the mid\u00ac",
+      "confidence": 0.9966064095497131
+    },
+    {
+      "bbox": [
+        306.0,
+        2296.0,
+        1538.0,
+        2347.0
+      ],
+      "text": "eighteenth to the early twentieth century, was essentially",
+      "confidence": 0.999610960483551
+    },
+    {
+      "bbox": [
+        306.0,
+        2347.0,
+        1539.0,
+        2404.0
+      ],
+      "text": "a matter of geographical and political Lebensraum: an",
+      "confidence": 0.9996029734611511
+    },
+    {
+      "bbox": [
+        306.0,
+        2404.0,
+        1537.0,
+        2457.0
+      ],
+      "text": "ever broader geographical scope for technological activi\u00ac",
+      "confidence": 0.9956729412078857
+    },
+    {
+      "bbox": [
+        874.0,
+        2499.0,
+        947.0,
+        2536.0
+      ],
+      "text": "504",
+      "confidence": 0.9907381534576416
+    },
+    {
+      "bbox": [
+        309.0,
+        2588.0,
+        1515.0,
+        2621.0
+      ],
+      "text": "Reprinted from John von Neumann Collected Works, ed. A. Taub, Vol. VI, pp. 504-519.",
+      "confidence": 0.9951281547546387
+    }
+  ],
+  "surya_easyocr": [
+    {
+      "bbox": [
+        1159.0,
+        190.0,
+        1627.0,
+        226.0
+      ],
+      "text": "The Neumann Compendium",
+      "confidence": 0.7399936416893832
+    },
+    {
+      "bbox": [
+        181.0,
+        195.0,
+        250.0,
+        229.0
+      ],
+      "text": "658",
+      "confidence": 0.9999905709103443
+    },
+    {
+      "bbox": [
+        400.0,
+        378.0,
+        1427.0,
+        424.0
+      ],
+      "text": "For  the kind of explosiveness  that man",
+      "confidence": 0.5333052425129636
+    },
+    {
+      "bbox": [
+        402.0,
+        442.0,
+        1426.0,
+        492.0
+      ],
+      "text": "will be able to contrive bv 1980, the globe",
+      "confidence": 0.7311436043616706
+    },
+    {
+      "bbox": [
+        401.0,
+        506.0,
+        1426.0,
+        560.0
+      ],
+      "text": "is   dangerously   small, its   political units",
+      "confidence": 0.602225580228542
+    },
+    {
+      "bbox": [
+        401.0,
+        572.0,
+        948.0,
+        626.0
+      ],
+      "text": "dangerously unstable.",
+      "confidence": 0.6106171725346592
+    },
+    {
+      "bbox": [
+        499.0,
+        1069.0,
+        1315.0,
+        1114.0
+      ],
+      "text": "CAN WE SURVIVE TECHNOLOGY?",
+      "confidence": 0.9916815417993525
+    },
+    {
+      "bbox": [
+        656.0,
+        1274.0,
+        1171.0,
+        1321.0
+      ],
+      "text": "by John von Neumann",
+      "confidence": 0.7002066733431129
+    },
+    {
+      "bbox": [
+        512.0,
+        1346.0,
+        1312.0,
+        1390.0
+      ],
+      "text": "Member, Atomic Energy Commission",
+      "confidence": 0.8450435407927156
+    },
+    {
+      "bbox": [
+        349.0,
+        1528.0,
+        1535.0,
+        1576.0
+      ],
+      "text": "\"The great globe iiself\" is in a rapidly maturing crisis",
+      "confidence": 0.684390122660416
+    },
+    {
+      "bbox": [
+        337.0,
+        1583.0,
+        1534.0,
+        1630.0
+      ],
+      "text": "~a crisis attributable to the fact that the environment",
+      "confidence": 0.7697098603851155
+    },
+    {
+      "bbox": [
+        300.0,
+        1640.0,
+        1535.0,
+        1685.0
+      ],
+      "text": "in which technological progress must occur has become",
+      "confidence": 0.9143200124029038
+    },
+    {
+      "bbox": [
+        301.0,
+        1695.0,
+        1533.0,
+        1739.0
+      ],
+      "text": "both undersized and underorganized. To define the crisis",
+      "confidence": 0.9380093526836288
+    },
+    {
+      "bbox": [
+        301.0,
+        1749.0,
+        1535.0,
+        1794.0
+      ],
+      "text": "with any accuracy, and to explore possibilities of dealing",
+      "confidence": 0.808457215596685
+    },
+    {
+      "bbox": [
+        301.0,
+        1803.0,
+        1535.0,
+        1851.0
+      ],
+      "text": "with it, we must not only look at relevant facts, but also",
+      "confidence": 0.6879036376773272
+    },
+    {
+      "bbox": [
+        301.0,
+        1856.0,
+        1535.0,
+        1904.0
+      ],
+      "text": "engage in some speculation. The process  will illuminate",
+      "confidence": 0.546407126008993
+    },
+    {
+      "bbox": [
+        300.0,
+        1914.0,
+        1536.0,
+        1958.0
+      ],
+      "text": "some potential technological developments of the next",
+      "confidence": 0.6343994572708413
+    },
+    {
+      "bbox": [
+        301.0,
+        1967.0,
+        669.0,
+        2011.0
+      ],
+      "text": "quarter-century.",
+      "confidence": 0.9994465071030342
+    },
+    {
+      "bbox": [
+        354.0,
+        2020.0,
+        1535.0,
+        2070.0
+      ],
+      "text": "In the first half of this century the accelerating indus-",
+      "confidence": 0.5138434991211648
+    },
+    {
+      "bbox": [
+        301.0,
+        2074.0,
+        1537.0,
+        2126.0
+      ],
+      "text": "trial revolution encountered an absolute limitation ~not",
+      "confidence": 0.5930383764681859
+    },
+    {
+      "bbox": [
+        303.0,
+        2132.0,
+        1538.0,
+        2181.0
+      ],
+      "text": "on technological progress as such but on an essential",
+      "confidence": 0.5230027049328213
+    },
+    {
+      "bbox": [
+        303.0,
+        2187.0,
+        1537.0,
+        2237.0
+      ],
+      "text": "safety factor. This safety factor, which had permitted",
+      "confidence": 0.8004206354353447
+    },
+    {
+      "bbox": [
+        301.0,
+        2239.0,
+        1537.0,
+        2293.0
+      ],
+      "text": "the industrial revolution to roll on from the mid-",
+      "confidence": 0.5723450476807204
+    },
+    {
+      "bbox": [
+        306.0,
+        2296.0,
+        1538.0,
+        2347.0
+      ],
+      "text": "eighteenth to the early twentieth century, was essentially",
+      "confidence": 0.7610799649164105
+    },
+    {
+      "bbox": [
+        306.0,
+        2347.0,
+        1539.0,
+        2404.0
+      ],
+      "text": "a matter of geographical and political Lebensraum: an",
+      "confidence": 0.8528874180893222
+    },
+    {
+      "bbox": [
+        306.0,
+        2404.0,
+        1537.0,
+        2457.0
+      ],
+      "text": "ever broader geographical scope for technological activi-",
+      "confidence": 0.6498760609172852
+    },
+    {
+      "bbox": [
+        874.0,
+        2499.0,
+        947.0,
+        2536.0
+      ],
+      "text": "504",
+      "confidence": 0.8990554809570312
+    },
+    {
+      "bbox": [
+        309.0,
+        2588.0,
+        1515.0,
+        2621.0
+      ],
+      "text": "Reprinted from John von Neumann Collected Works, ed: A. Taub, Vol. VI, pp. 504-519.",
+      "confidence": 0.5273957315973946
+    }
+  ],
+  "easyocr_surya": [
+    {
+      "bbox": [
+        [
+          

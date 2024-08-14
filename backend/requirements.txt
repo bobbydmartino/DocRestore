@@ -1,5 +1,10 @@
 flask
 flask-cors
 Pillow
-pypdfium2==4
 schedule
+tqdm
+pdfplumber
+opencv-python-headless
+ubelt
+surya-ocr
+easyocr
