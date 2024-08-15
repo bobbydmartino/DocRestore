@@ -6,12 +6,15 @@ __pycache__/
 .Python
 env/
 venv/
+.ipynb_checkpoints
+*.ipynb
 *.log
 
 # Node
 node_modules/
 dist/
 .DS_Store
+.vite
 .env.local
 .env.development.local
 .env.test.local

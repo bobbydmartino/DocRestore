@@ -12,6 +12,15 @@ from surya.model.recognition.processor import load_processor as load_recognition
 
 from run_models import run_conf_recognition
 
+def convert_boxes(boxes):
+    line_box_coords = []
+    for boxx in boxes:
+        box = boxx[0]+boxx[1]+boxx[2]+boxx[3]
+        x1, y1 = np.min(box[0::2]), np.min(box[1::2])  
+        x2, y2 = np.max(box[0::2]), np.max(box[1::2])  
+        line_box_coords.append([x1,y1,x2,y2])
+    return line_box_coords
+    
 def run_surya_detection(image_path, det_model, det_processor, rec_model, rec_processor):
     image = Image.open(image_path)
     predictions = run_ocr([image], [["en"]], det_model, det_processor, rec_model, rec_processor)
@@ -28,7 +37,7 @@ def run_easyocr_detection(image_path, reader):
     results = reader.readtext(image_path)
     return [
         {
-            'bbox': bbox,
+            'bbox': convert_boxes([bbox])[0],
             'text': text,
             'confidence': conf
         }
@@ -57,15 +66,6 @@ def run_surya_recognition(image_path, bboxes, rec_model, rec_processor):
         for pred in predictions[0].text_lines
     ]
 
-def convert_boxes(boxes):
-    line_box_coords = []
-    for boxx in boxes:
-        box = boxx[0]+boxx[1]+boxx[2]+boxx[3]
-        x1, y1 = np.min(box[0::2]), np.min(box[1::2])  
-        x2, y2 = np.max(box[0::2]), np.max(box[1::2])  
-        line_box_coords.append([x1,y1,x2,y2])
-    return line_box_coords
-
 
 def run_experiments(image_path, models):
     results = {}
@@ -83,10 +83,8 @@ def run_experiments(image_path, models):
             detections = run_easyocr_detection(image_path, easyocr_reader)
         else:
             raise ValueError(f"Unknown detector: {detector}")
-
+    
         bboxes = [det['bbox'] for det in detections]
-        if detector == 'easyocr':
-            bboxes = convert_boxes(bboxes)
             
         for recognizer in recognizers:
             if recognizer == 'surya':
@@ -101,7 +99,7 @@ def run_experiments(image_path, models):
                     recognitions = run_easyocr_recognition(image_path, bboxes,easyocr_reader)
             else:
                 raise ValueError(f"Unknown recognizer: {recognizer}")
-
+    
             results[f"{detector}_{recognizer}"] = [
                 {
                     'bbox': det['bbox'],

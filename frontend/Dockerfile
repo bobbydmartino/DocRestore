@@ -17,18 +17,20 @@ RUN if id -u ${USER_ID} >/dev/null 2>&1; then \
     useradd -l -u ${USER_ID} -g ${GROUP_ID} dockeruser; \
   fi
 
-# Set the working directory and change its ownership
+# Set the working directory
 WORKDIR /app
-RUN chown dockeruser:dockeruser /app
 
 # Switch to the non-root user
 USER dockeruser
+
+# Create a directory for Vite cache in the user's home
+RUN mkdir -p /home/dockeruser/.vite && chmod -R 755 /home/dockeruser/.vite
 
 # Install dependencies
 COPY --chown=dockeruser:dockeruser package*.json ./
 RUN npm install
 
-# Copy the rest of the application code
-COPY --chown=dockeruser:dockeruser . .
+# We don't need to copy the rest of the application code here
+# as it will be mounted at runtime
 
 CMD ["/bin/bash"]

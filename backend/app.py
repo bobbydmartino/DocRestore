@@ -4,7 +4,6 @@ import threading
 import schedule
 from flask import Flask, jsonify, send_file, request  
 from flask_cors import CORS
-import pypdfium2 as pdfium
 import logging
 # from ocr_experiments import OCRExperiment
 

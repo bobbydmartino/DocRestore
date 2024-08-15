@@ -7,13 +7,12 @@ services:
         USER_ID: ${UID:-1000}
         GROUP_ID: ${GID:-1000}
     volumes:
-      - ./frontend:/app
-      - /app/node_modules
+      - ./frontend:/app:rw
+      # - /app/node_modules
     ports:
       - "3000:3000"
     tty: true
     stdin_open: true
-
   backend:
     build:
       context: ./backend
@@ -25,5 +24,14 @@ services:
       - ${PDF_FOLDER:-./pdf}:/pdf
     ports:
       - "5000:5000"
+      - "8899:8888"
     tty: true
     stdin_open: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            count: 1
+            capabilities: [gpu]
+    shm_size: '6g'  # Increase shared memory to 6GB
